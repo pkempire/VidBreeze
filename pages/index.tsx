@@ -65,13 +65,11 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="VidBreeze - Transform Your YouTube Experience"
+        description="Enhance your YouTube watching with our AI-powered Chrome extension"
       />
       <Box>
         <HeroSection />
-
-        <HighlightsSection />
 
         <FeaturesSection />
 
@@ -97,8 +95,8 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Transform Your 
+                <Br /> YouTube Experience
               </FallInPlace>
             }
             description={
@@ -115,12 +113,12 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                <ButtonLink colorScheme="primary" size="lg" href="https://sponsor.ajay.app/">
+                  Get Extension
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://sponsor.ajay.app/"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -174,17 +172,17 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Skip Sponsored Segments",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Tired of sitting through sponsored content? VidBreeze automatically detects and skips sponsored segments, so you can focus on the content you love.            ",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Video Summaries            ",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Short on time? Our AI-generated video summaries give you the key takeaways from any video in just a few moments, saving you time and effort.              ",
             iconPosition: "left",
             delay: 0.8,
           },
@@ -328,8 +326,8 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> dashboard template.
+          Getting Started
+          <Br /> 
         </Heading>
       }
       description={
@@ -345,64 +343,19 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Components.",
-          icon: FiBox,
+          title: "1. Install VidBreeze",
           description:
             "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
-          icon: FiLock,
+          title: "2. Customize Your Settings",
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
           variant: "inline",
         },
         {
-          title: "Documentation.",
-          icon: FiSearch,
-          description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
-          variant: "inline",
-        },
-        {
-          title: "Onboarding.",
-          icon: FiUserPlus,
-          description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
-          variant: "inline",
-        },
-        {
-          title: "Feature flags.",
-          icon: FiFlag,
-          description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
-          variant: "inline",
-        },
-        {
-          title: "Upselling.",
-          icon: FiTrendingUp,
-          description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
-          variant: "inline",
-        },
-        {
-          title: "Themes.",
-          icon: FiToggleLeft,
-          description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
-          variant: "inline",
-        },
-        {
-          title: "Generators.",
-          icon: FiTerminal,
-          description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
-          variant: "inline",
-        },
-        {
-          title: "Monorepo.",
-          icon: FiCode,
+          title: "3. Enjoy Enhanced YouTube",
           description: (
             <>
               All code is available as packages in a high-performance{" "}
@@ -464,16 +417,4 @@ const FaqSection = () => {
 
 export default Home;
 
-export async function getStaticProps() {
-  return {
-    props: {
-      announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
-        description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
-        action: false,
-      },
-    },
-  };
-}
+

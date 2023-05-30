@@ -84,7 +84,7 @@ export default {
           <Text textDecoration="line-through" fontSize="sm" color="gray.400">
             €999,-
           </Text>
-          <Text>€499,-</Text>
+          <Text>$499,-</Text>
         </HStack>
       ),
       features: [
