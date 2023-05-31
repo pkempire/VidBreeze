@@ -101,15 +101,12 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+               Enhance your video watching with our AI-powered Chrome extension
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
@@ -187,20 +184,60 @@ const HeroSection: React.FC = () => {
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Annotations",
             icon: FiGrid,
             description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+              "Add personal notes to videos you are watching. jot down your thoughts to incrase comprehesion and mark important points ",
             iconPosition: "left",
             delay: 1,
           },
           {
-            title: "Productive",
+            title: "Bookmarks",
+            icon: FiGrid,
+            description:
+              "bookmark specific moments within a video, and save them to your library. Mark points to save for later, and moments that inspire you. ",
+            iconPosition: "left",
+            delay: 1,
+          },
+          {
+            title: "Reliability Rating",
             icon: FiThumbsUp,
             description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+              "In an age of misinformation, our AI algorithm evaluates how scientifically accurate the content you are watching, and provides you with a 0-100 of the content.",
             iconPosition: "left",
             delay: 1.1,
+          },
+          {
+            title: "Smart Recommendations",
+            icon: FiGrid,
+            description:
+              "Get reccomednations based on the topics you enjoy by our algorithmn which analyzes your watch habits and finds videos you'll like    ",
+            iconPosition: "left",
+            delay: 1,
+          },
+          {
+            title: "Transcript for Notes",
+            icon: FiGrid,
+            description:
+              "Quickly download a formatted transcript of the video, with AI generated headers to take organized notes on the topic.",
+            iconPosition: "left",
+            delay: 1,
+          },
+          {
+            title: "Quizzes",
+            icon: FiGrid,
+            description:
+              "Make sure you understand the topic with in-built quizzes on any topic as you watch",
+            iconPosition: "left",
+            delay: 1,
+          },
+          {
+            title: "Smart Topic Search",
+            icon: FiGrid,
+            description:
+              "Search the video for what you care about, skip the rest. Take you straight to the timestamps pertaining to what your curious about. ",
+            iconPosition: "left",
+            delay: 1,
           },
         ]}
         reveal={FallInPlace}
