@@ -147,7 +147,7 @@ const HeroSection: React.FC = () => {
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%">
                 <Image
-                  src="/static/screenshots/list.png"
+                  src="/static/screenshots/waiting.png"
                   layout="fixed"
                   width={1200}
                   height={762}
@@ -228,6 +228,14 @@ const HeroSection: React.FC = () => {
             icon: FiGrid,
             description:
               "Make sure you understand the topic with in-built quizzes on any topic as you watch",
+            iconPosition: "left",
+            delay: 1,
+          },
+          {
+            title: "Smart Topic Search",
+            icon: FiGrid,
+            description:
+              "Search the video for what you care about, skip the rest. Take you straight to the timestamps pertaining to what your curious about. ",
             iconPosition: "left",
             delay: 1,
           },
