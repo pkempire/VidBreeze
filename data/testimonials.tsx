@@ -3,18 +3,18 @@ export default {
   items: [
     {
       name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      description: '',
       avatar:
-        'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
+        '/static/images/avatar.jpg',
       children: (
         <>
-          “"VidBreeze is a game-changer! It effortlessly skips those annoying sponsored segments on YouTube, saving me valuable time and letting me dive right into the content I love.”
+          “VidBreeze is a game-changer! It effortlessly skips those annoying sponsored segments on YouTube, saving me valuable time and letting me dive right into the content I love.”
         </>
       ),
     },
     {
       name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
+      description: '',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
@@ -24,7 +24,7 @@ export default {
     },
     {
       name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
+      description: '',
       avatar: '/static/images/avatar3.jpg',
       children: (
         <>

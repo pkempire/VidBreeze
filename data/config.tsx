@@ -8,8 +8,8 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
-    description: 'The React component library for startups',
+    title: 'Vid Breeze',
+    description: 'Transforming the Way You Watch, Learn, and Explore',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -42,7 +42,7 @@ const siteConfig = {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        <Link href="https://twitter.com/Pagebakers">Parth Kocheta</Link>
       </>
     ),
     links: [

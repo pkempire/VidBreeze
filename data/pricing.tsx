@@ -1,14 +1,14 @@
 import { HStack, Text } from '@chakra-ui/react'
 
 export default {
-  title: 'Pricing for every stage',
+  title: 'Pricing',
   description:
-    'Pay once and get life-time access to our high quality components.',
+    '',
   plans: [
     {
       id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
+      title: 'Pro',
+      description: 'Unlimited + Bonus Features',
       price: 'Free',
       features: [
         {
@@ -34,13 +34,13 @@ export default {
         },
       ],
       action: {
-        href: '#',
+        href: 'https://sponsor.ajay.app/',
       },
     },
     {
       id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
+      title: 'Basic',
+      description: 'Get the basic features of Vid Breeze ',
       price: 'Free',
       isRecommended: true,
       features: [
@@ -72,13 +72,13 @@ export default {
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        href: 'https://sponsor.ajay.app/',
       },
     },
     {
       id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
+      title: 'Commercial',
+      description: 'Unlimited usage for teams.',
       price: (
         <HStack>
           <Text textDecoration="line-through" fontSize="sm" color="gray.400">
@@ -100,14 +100,10 @@ export default {
         {
           title: 'Everything from Bootstrap',
         },
-        null,
-        {
-          title: 'Private beta access',
-          iconColor: 'green.500',
-        },
+       
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        href: 'https://sponsor.ajay.app/',
       },
     },
   ],

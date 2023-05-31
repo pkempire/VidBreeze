@@ -171,79 +171,63 @@ const HeroSection: React.FC = () => {
           {
             title: "Skip Sponsored Segments",
             icon: FiSmile,
-            description: "Tired of sitting through sponsored content? VidBreeze automatically detects and skips sponsored segments, so you can focus on the content you love.            ",
+            description: "Tired of sitting through sponsored content? VidBreeze automatically detects and skips sponsored segments, so you can focus on the content you love.",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Video Summaries            ",
+            title: "Video Summaries",
             icon: FiSliders,
-            description:
-              "Short on time? Our AI-generated video summaries give you the key takeaways from any video in just a few moments, saving you time and effort.              ",
+            description: "Short on time? Our AI-generated video summaries give you the key takeaways from any video in just a few moments, saving you time and effort.",
             iconPosition: "left",
             delay: 0.8,
           },
           {
             title: "Annotations",
             icon: FiGrid,
-            description:
-              "Add personal notes to videos you are watching. jot down your thoughts to incrase comprehesion and mark important points ",
+            description: "Jot down personal notes to increase comprehension and mark important points. Come back later and pickup with the notes you left.",
             iconPosition: "left",
             delay: 1,
           },
           {
             title: "Bookmarks",
             icon: FiGrid,
-            description:
-              "bookmark specific moments within a video, and save them to your library. Mark points to save for later, and moments that inspire you. ",
+            description: "Bookmark specific moments within a video and save them to your library. Keep segments for later reference or store moments that inspire you.",
             iconPosition: "left",
             delay: 1,
           },
           {
             title: "Reliability Rating",
             icon: FiThumbsUp,
-            description:
-              "In an age of misinformation, our AI algorithm evaluates how scientifically accurate the content you are watching, and provides you with a 0-100 of the content.",
+            description: "In an age of misinformation, our AI algorithm evaluates the scientific accuracy of the content you are watching and provides a reliability rating from 0 to 100.",
             iconPosition: "left",
             delay: 1.1,
           },
           {
             title: "Smart Recommendations",
             icon: FiGrid,
-            description:
-              "Get reccomednations based on the topics you enjoy by our algorithmn which analyzes your watch habits and finds videos you'll like    ",
+            description: "Discover videos based on the topics you enjoy. Our algorithm analyzes your watch habits to suggest videos you'll love.",
             iconPosition: "left",
             delay: 1,
           },
           {
             title: "Transcript for Notes",
             icon: FiGrid,
-            description:
-              "Quickly download a formatted transcript of the video, with AI generated headers to take organized notes on the topic.",
+            description: "Quickly download a formatted transcript of the video with AI-generated headers, making it easy to take organized notes on the topic.",
             iconPosition: "left",
             delay: 1,
           },
           {
             title: "Quizzes",
             icon: FiGrid,
-            description:
-              "Make sure you understand the topic with in-built quizzes on any topic as you watch",
+            description: "Ensure your understanding of the topic with built-in quizzes related to the video content as you watch.",
             iconPosition: "left",
             delay: 1,
           },
           {
             title: "Smart Topic Search",
             icon: FiGrid,
-            description:
-              "Search the video for what you care about, skip the rest. Take you straight to the timestamps pertaining to what your curious about. ",
-            iconPosition: "left",
-            delay: 1,
-          },
-          {
-            title: "Smart Topic Search",
-            icon: FiGrid,
-            description:
-              "Search the video for what you care about, skip the rest. Take you straight to the timestamps pertaining to what your curious about. ",
+            description: "Search the video for what you care about and skip the rest. VidBreeze takes you straight to the timestamps relevant to your interests. Our algorithmn will answer any questions about the content in the video",
             iconPosition: "left",
             delay: 1,
           },
@@ -362,58 +346,55 @@ const HighlightsSection = () => {
 
 const FeaturesSection = () => {
   return (
-    <Features
-      id="features"
-      title={
-        <Heading
-          lineHeight="short"
-          fontSize={["2xl", null, "4xl"]}
-          textAlign="left"
-          as="p"
-        >
-          Getting Started
-          <Br /> 
-        </Heading>
-      }
-      description={
-        <>
-          Saas UI Pro includes everything you need to build modern frontends.
-          <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
-        </>
-      }
-      align="left"
-      columns={[1, 2, 3]}
-      iconSize={4}
-      features={[
-        {
-          title: "1. Install VidBreeze",
-          description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
-          variant: "inline",
-        },
-        {
-          title: "2. Customize Your Settings",
-          description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
-          variant: "inline",
-        },
-        {
-          title: "3. Enjoy Enhanced YouTube",
-          description: (
-            <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
-          variant: "inline",
-        },
-      ]}
-    />
+  <Features
+  id="features"
+  title={
+  <Heading
+  lineHeight="short"
+  fontSize={["2xl", null, "4xl"]}
+  textAlign="left"
+  as="p"
+  >
+  Getting Started
+  <Br />
+  </Heading>
+  }
+  description={
+  <>
+  VidBreeze is a powerful Chrome extension that enhances your YouTube and video watching experience. It offers features like ad skipping, content summarization, and smart search for YouTube videos.
+  <Br />
+  Install VidBreeze and transform the way you interact with online videos.
+  </>
+  }
+  align="left"
+  columns={[1, 2, 3]}
+  iconSize={4}
+  features={[
+  {
+  title: "1. Install VidBreeze",
+  description:
+  "Experience the convenience of having all the premium features at your fingertips. VidBreeze integrates with your Chrome browser, eliminating the need for manual copy-pasting and ensuring you always have the latest updates.",
+  variant: "inline",
+  },
+  {
+  title: "2. Customize Your Settings",
+  description:
+  "Tailor VidBreeze to your preferences. Adjust the settings to suit your needs and make your video-watching experience even more personalized.",
+  variant: "inline",
+  },
+  {
+  title: "3. Enjoy Enhanced YouTube",
+  description: (
+  <>
+  VidBreeze provides you with the flexibility to control and modify your video workflow. With the availability of code packages in a high-performance <Link href="https://turborepo.com">Turborepo</Link>, you have the freedom to enhance and optimize your video watching experience.
+  </>
+  ),
+  variant: "inline",
+  },
+  ]}
+  />
   );
-};
+  };
 
 const TestimonialsSection = () => {
   const columns = React.useMemo(() => {
@@ -450,7 +431,6 @@ const PricingSection = () => {
   return (
     <Pricing {...pricing}>
       <Text p="8" textAlign="center" color="muted">
-        VAT may be applicable depending on your location.
       </Text>
     </Pricing>
   );
