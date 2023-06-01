@@ -8,8 +8,7 @@ import { Logo } from './logo'
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Vid Breeze',
-    description: 'Transforming the Way You Watch, Learn, and Explore',
+    description: 'Transforming the Way You Watch, Learn, and Explore by Applying AI to Video',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',

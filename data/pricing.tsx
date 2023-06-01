@@ -8,30 +8,19 @@ export default {
     {
       id: 'oss',
       title: 'Pro',
-      description: 'Unlimited + Bonus Features',
-      price: 'Free',
+      description: 'Unlimited Usage + Bonus Features',
+      price: '$5 Monthly',
       features: [
         {
-          title: 'MIT License',
+          title: 'Unlimited Videos',
         },
         {
-          title: 'Authentication (Clerk/Supabase/Magic)',
+          title: '3 Hour Video Limit',
         },
         {
-          title: 'Form (react-hook-form)',
+          title: 'Additional Features: Interactive Chatbot, Reliability Rating, ',
         },
-        {
-          title: 'Modals manager',
-        },
-        {
-          title: 'Hotkeys',
-        },
-        {
-          title: 'Web3 components',
-        },
-        {
-          title: 'And much more...',
-        },
+      
       ],
       action: {
         href: 'https://sponsor.ajay.app/',
@@ -40,36 +29,17 @@ export default {
     {
       id: 'bootstrap',
       title: 'Basic',
-      description: 'Get the basic features of Vid Breeze ',
+      description: 'Get the basic features of Vid Breeze at limited usage ',
       price: 'Free',
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: 'Sponsor Blocking',
         },
         {
-          title: 'One developer',
+          title: 'Video Summarization',
         },
-        {
-          title: 'Advanced components',
-        },
-        {
-          title: 'Multiple themes',
-        },
-        {
-          title: 'Next.js and Electron boilerplates',
-        },
-        {
-          title: 'Private discord community',
-        },
-        {
-          title: '1 year of updates',
-        },
-        null,
-        {
-          title: 'Private beta access',
-          iconColor: 'green.500',
-        },
+        
       ],
       action: {
         href: 'https://sponsor.ajay.app/',
@@ -78,27 +48,21 @@ export default {
     {
       id: 'startup',
       title: 'Commercial',
-      description: 'Unlimited usage for teams.',
+      description: 'API + Commercial Use',
       price: (
         <HStack>
-          <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
-          </Text>
-          <Text>$499,-</Text>
+          <Text>Custom</Text>
         </HStack>
       ),
       features: [
         {
-          title: 'Unlimited projects',
+          title: 'Commercial projects',
         },
         {
-          title: 'Unlimited developers',
+          title: 'API Access',
         },
         {
-          title: '1 year of updates',
-        },
-        {
-          title: 'Everything from Bootstrap',
+          title: 'Custom Solutions',
         },
        
       ],
