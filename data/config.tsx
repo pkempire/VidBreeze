@@ -1,14 +1,14 @@
 import { Button } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
   seo: {
-    description: 'Transforming the Way You Watch, Learn, and Explore by Applying AI to Video',
+    description: 'Revolutionize your watching experience',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -41,21 +41,21 @@ const siteConfig = {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Parth Kocheta</Link>
+        <Link href="">Parth Kocheta</Link>
       </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
+        href: 'vidbreeze@gmail.com',
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/vidbreeze',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
-        label: <FaGithub size="14" />,
+        href: 'https://www.instagram.com/vidbreeze.io/',
+        label: <FaInstagram size="14" />,
       },
     ],
   },

@@ -188,9 +188,16 @@ const HeroSection: React.FC = () => {
             delay: 0.8,
           },
           {
+            title: "Smart Topic Search",
+            icon: FiGrid,
+            description: "Search the video for what you care about and skip the rest. VidBreeze takes you straight to the timestamps relevant to your interests. Like an AI powered ctrl + f for videos",
+            iconPosition: "left",
+            delay: 1,
+          },
+          {
             title: "Annotations",
             icon: FiGrid,
-            description: "Jot down personal notes to increase comprehension and mark important points. Come back later and pickup with the notes you left.",
+            description: "Jot down notes attached to videos to increase comprehension and mark important points. Come back later and pickup with the notes you left.",
             iconPosition: "left",
             delay: 1,
           },
@@ -229,13 +236,7 @@ const HeroSection: React.FC = () => {
             iconPosition: "left",
             delay: 1,
           },
-          {
-            title: "Smart Topic Search",
-            icon: FiGrid,
-            description: "Search the video for what you care about and skip the rest. VidBreeze takes you straight to the timestamps relevant to your interests. Our algorithmn will answer any questions about the content in the video",
-            iconPosition: "left",
-            delay: 1,
-          },
+          
         ]}
         reveal={FallInPlace}
       />

@@ -18,7 +18,8 @@ export const Logo: React.FC<HTMLChakraProps<'svg'>> = (props) => {
       />
       <path
         fill={color}
-        d=""
+        d="M710 655 c0 -32 2 -35 30 -35 28 0 30 3 30 35 0 32 -2 35 -30 35 -28
+        0 -30 -3 -30 -35z"
       />
     </chakra.svg>
   )
